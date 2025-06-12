@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="5" style="-fx-background-color: #f0f0f0; -fx-padding: 5;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.cursova.controllers.MotherboardController">
+    <TableView fx:id="motherboardTable" prefHeight="400" prefWidth="600">
+        <columns>
+            <TableColumn fx:id="propertyColumn" prefWidth="200" text="%motherboard.property"/>
+            <TableColumn fx:id="valueColumn" prefWidth="400" text="%motherboard.value"/>
+        </columns>
+    </TableView>
+</VBox>

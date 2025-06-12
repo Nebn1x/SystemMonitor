@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="2" style="-fx-background-color: #f0f0f0; -fx-padding: 2;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.cursova.controllers.MemoryUsageController">
+    <PieChart fx:id="usageChart" styleClass="chart" title="%memory.usage" prefHeight="200"/>
+</VBox>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="5" style="-fx-background-color: #f0f0f0; -fx-padding: 5;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.cursova.controllers.SettingsController">
+    <Label text="%settings.language" styleClass="label"/>
+    <ChoiceBox fx:id="languageChoiceBox" prefWidth="150"/>
+    <Button fx:id="applyButton" text="%settings.apply" onAction="#handleApply"/>
+    <Button fx:id="exportJsonButton" text="Export to JSON" onAction="#exportToJson"/>
+    <Button fx:id="exportTxtButton" text="Export to TXT" onAction="#exportToTxt"/>
+</VBox>

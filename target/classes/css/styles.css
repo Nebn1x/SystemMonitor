@@ -1,0 +1,95 @@
+.tab-pane .tab-header-area {
+    -fx-background-color: #d3d3d3;
+    -fx-padding: 0;
+}
+
+.tab-pane .tab {
+    -fx-background-color: #d3d3d3;
+    -fx-border-color: #a9a9a9;
+    -fx-border-width: 1 1 0 1;
+    -fx-padding: 0 6 0 6; /* Ще менші вкладки */
+    -fx-pref-height: 20; /* Фіксована висота вкладок */
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #a9a9a9;
+    -fx-border-width: 1 1 0 1;
+}
+
+.tab-pane .tab-label {
+    -fx-font-size: 9px; /* Ще менший шрифт */
+    -fx-font-family: "Arial";
+    -fx-text-fill: #000000;
+}
+
+.tab-pane .tab:selected .tab-label {
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+}
+
+.label {
+    -fx-font-family: "Arial";
+    -fx-font-size: 9px;
+    -fx-text-fill: #000000;
+}
+
+.table-view {
+    -fx-background-color: #e0e0e0;
+    -fx-border-color: #a9a9a9;
+    -fx-border-width: 2;
+    -fx-font-family: "Arial";
+    -fx-font-size: 9px;
+    -fx-fixed-cell-size: 15;
+}
+
+.table-view .column-header {
+    -fx-background-color: #d3d3d3;
+    -fx-font-family: "Arial";
+    -fx-font-size: 9px;
+    -fx-border-width: 0;
+}
+
+.table-view .scroll-bar:vertical {
+    -fx-opacity: 0; /* Прибираємо вертикальну прокрутку */
+}
+
+.chart {
+    -fx-background-color: #e0e0e0;
+    -fx-border-color: #a9a9a9;
+    -fx-border-width: 2;
+    -fx-font-family: "Arial";
+    -fx-font-size: 9px;
+}
+
+.chart-plot-background {
+    -fx-background-color: #e0e0e0;
+}
+
+.chart-series-line {
+    -fx-stroke: #ff0000;
+    -fx-stroke-width: 1;
+}
+
+.button {
+    -fx-background-color: #d3d3d3;
+    -fx-border-color: #a9a9a9;
+    -fx-font-family: "Arial";
+    -fx-font-size: 9px;
+}
+
+.choice-box {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #a9a9a9;
+    -fx-font-family: "Arial";
+    -fx-font-size: 9px;
+}
+
+.check-box {
+    -fx-font-family: "Arial";
+    -fx-font-size: 9px;
+}
+
+.pie-chart .label {
+    -fx-font-size: 9px;
+}
