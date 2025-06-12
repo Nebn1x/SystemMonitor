@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.cursova.controllers.MainController">
+    <TabPane fx:id="tabPane" tabClosingPolicy="UNAVAILABLE">
+        <Tab fx:id="cpuTab" text="%tab.cpu"/>
+        <Tab fx:id="gpuTab" text="%tab.gpu"/>
+        <Tab fx:id="memoryTab" text="%tab.memory"/>
+        <Tab fx:id="motherboardTab" text="%tab.motherboard"/>
+        <Tab fx:id="storageTab" text="%tab.storage"/>
+        <Tab fx:id="settingsTab" text="%tab.settings"/>
+        <Tab fx:id="helpTab" text="%tab.help"/>
+    </TabPane>
+</VBox>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="2" style="-fx-background-color: #f0f0f0; -fx-padding: 2;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.cursova.controllers.StorageController">
+    <TableView fx:id="storageTable" styleClass="table-view" prefHeight="360">
+        <columns>
+            <TableColumn fx:id="typeColumn" text="%storage.type" prefWidth="100"/>
+            <TableColumn fx:id="totalSpaceColumn" text="%storage.total" prefWidth="100"/>
+            <TableColumn fx:id="usedSpaceColumn" text="%storage.used" prefWidth="100"/>
+            <TableColumn fx:id="freeSpaceColumn" text="%storage.free" prefWidth="100"/>
+        </columns>
+    </TableView>
+</VBox>
